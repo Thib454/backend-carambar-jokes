@@ -47,6 +47,20 @@ Ce projet fournit un backend Express.js pour gérer des blagues Carambar via une
 ### ▶️ Installation
 
 ```bash
-git clone https://github.com/<ton-pseudo>/backend-carambar-jokes.git
+git clone https://github.com/Thib454/backend-carambar-jokes.git
 cd backend-carambar-jokes
 npm install
+
+### 🗃️ Structure du projet
+
+backend-carambar-jokes/
+│
+├── controllers/       # Logique métier
+├── models/            # Modèle Sequelize
+├── routes/            # Routes Express
+├── config/            # Connexion base de données
+├── docs/              # Config Swagger
+├── scripts/           # Scripts pour ajouter des blagues
+├── db/                # Fichier SQLite
+├── app.js             # Point d’entrée principal
+└── README.md
