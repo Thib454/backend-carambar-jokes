@@ -6,6 +6,7 @@ const jokeRoutes = require('./routes/jokeRoutes');
 const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('./docs/swagger');
 
+// Autorise les requêtes provenant d'autres origines
 app.use(cors());
 
 // Middleware pour parser le JSON
